@@ -1,6 +1,6 @@
 # End to End Testing for Cytoscape
 
-These Python tests are meant to be run alongside an installed Cytoscape release or release candidate. They provide basic sanity checking and accompany manual testing.
+These Python tests are meant to be run alongside an installed Cytoscape release or release candidate. They provide some basic sanity checking and streamline the manual testing of Cytoscape on different operating systems and Java configurations. They do NOT constitute a full test of Cytoscape's functionality.
 
 ## Prerequisites
 
@@ -18,11 +18,22 @@ pip install requests
 
 ## Installation
 
-Download this project zip [here](https://github.com/dotasek/cy-end-to-end-tests-python/archive/master.zip) and unzip its contents, or clone via git.
+The most up to date tests can be downloaded [here](https://github.com/cytoscape/cy-end-to-end-tests-python/releases/tag/3.7.0-M2). Choose a format and download the release, and then uncompress its contents.
+
+For tests for previous versions, you can browse previous releases [here](https://github.com/cytoscape/cy-end-to-end-tests-python/releases/).
 
 ## Execution
 
-Start Cytoscape, then execute the following from within this projects root directory:
+Start Cytoscape, then open a terminal in the downloaded project's root directory. You should be able to see the following directory structure:
+
+```
+CyTestSupport (directory)
+README.md
+setup.py
+.gitignore (may not always appear, depending on your directory listing settings)
+```
+
+Change the directory to CyTestSupport and execute the python tests using the following commands:
 
 ```
 cd CyTestSupport
