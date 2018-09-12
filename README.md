@@ -18,7 +18,7 @@ pip install requests
 
 ## Installation
 
-The most up to date tests can be downloaded [here](https://github.com/cytoscape/cy-end-to-end-tests-python/releases/tag/3.7.0-M2). Choose a format and download the release, and then uncompress its contents.
+The most up to date tests can be downloaded [here](https://github.com/cytoscape/cy-end-to-end-tests-python/releases/latest). Choose a format and download the release, and then uncompress its contents.
 
 For tests for previous versions, you can browse previous releases [here](https://github.com/cytoscape/cy-end-to-end-tests-python/releases/).
 
