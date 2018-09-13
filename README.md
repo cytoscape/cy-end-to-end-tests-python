@@ -1,6 +1,6 @@
 # End to End Testing for Cytoscape
 
-These Python tests are meant to be run alongside an installed Cytoscape release or release candidate. They provide some basic sanity checking and streamline the manual testing of Cytoscape on different operating systems and Java configurations. They do NOT constitute a full test of Cytoscape's functionality.
+These Python tests are meant to be run alongside an installed Cytoscape release or release candidate. They provide some basic sanity checking and are intended to streamline the manual testing of Cytoscape on different operating systems and Java configurations. They do NOT constitute a full test of Cytoscape's functionality.
 
 ## Prerequisites
 
